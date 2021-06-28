@@ -1,0 +1,9 @@
+Resources:
+  nodeapi:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: routes/post.getPosts
+      CodeUri: 'C:/Users/Sanacore/Documents/Codigos/Node Js/nodeapi'
+      Runtime: nodejs14.x
+      Environment:
+        Variables: {}
